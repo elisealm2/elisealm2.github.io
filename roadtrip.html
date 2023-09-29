@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" type="image/png" href="icons/icon.png">
+
+      <title>bubs the van</title>
+   </head>	
+   <body>
+        <div id="heading"><center>
+            <h1>Welcome to Bubs the Van</h1>
+            </center>
+        </div>
+        <div id ="menu">
+            <ul>
+                <li><a href = "/index.html">home</a></li>
+                <li><a href = "/final.html">final photos</a></li>
+                <li><a href = "/roadtrip.html">trip</a></li>
+                <!--<li><a href="/buildinformation.html">build information</a></li>-->
+            </ul>
+        </div>
+          <center> <h2>Maps of Initial Road Trip</h2></center> 
+        
+          <div class="container">
+            <img src="assets/TOTMAP.png" alt="full map" style="width:100%;">
+            <div class="content">
+              <h3>Full Trip Map</h3>
+              <p> Approximately 6,730 miles traveled, and 100 hours driven </p>
+            </div>
+          </div>
+          <div class="container">
+            <img src ="assets/MAP1.png" alt="map1" style="width:100%"> 
+            <div class="content">
+              <h3>First leg of trip to get to the rockies</h3>
+              <p> Approximately 2,000 miles traveled, and 27 hours driven </p>
+            </div>
+          </div>
+          <div class="container">
+            <img src ="assets/MAP2.png" alt="map2" style="width:100%"> 
+            <div class="content">
+              <h3>Exploration of national parks in the west</h3>
+              <p> This leg of the trip was broken up into multiple days as we headed even more west seeing four national parks </p>
+            </div>
+          </div>
+          <div class="container">
+            <img src ="assets/MAP3.png" alt="map3" style="width:100%"> 
+            <div class="content">
+              <h3>Traveled to the coast, up the PCH, and back east</h3>
+              <p> We went to the coast to swim and surf in the ocean. Then traveled up the pacific coast highway to Sanoma Country CA, then back east. We were sure to stop in Lake Tahoe and Salt Lake City on the way back. </p>
+            </div>
+          </div>
+          <div class="container">
+            <img src ="assets/MAP4.png" alt="map4" style="width:100%"> 
+            <div class="content">
+              <h3>Heading back to the east coast</h3>
+              <p> We stopped at another national park, the badlands, and we were sure to see mount rushmore as we headed for 90E.  </p>
+            </div>
+          </div>
+          <div class="container">
+            <img src ="assets/MAP5.png" alt="map5" style="width:100%"> 
+            <div class="content">
+              <h3>The 1,700 mile treck home full of corn fields</h3>
+              <p>This leg of the trip is spent reminiscing about the adventure! </p>
+            </div>
+          </div>
+        
+        </div>
+      
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+                }
+                </script>
+        <footer>
+            <br>
+            <br>
+        </footer>
+   </body>	
+</html>

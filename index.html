@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" type="image/png" href="icons/icon.png">
+      <title>bubs the van</title>
+   </head>	
+   <body>
+        <div id="heading"><center>
+             <h1>Welcome to Bubbles the Van</h1>
+                <p>thank you for your interest about my van build and trips!</p>
+                <p>The vans name is Bubbles a.k.a Bubs!</p>
+        </center>
+        </div>
+        <div id ="menu">
+            <ul>
+                <li><a href = "/index.html">home</a></li>
+                <li><a href = "/final.html">final photos</a></li>
+                <li><a href = "/roadtrip.html">trips</a></li>
+                <!--<li><a href="/buildinformation.html">build information</a></li>-->
+            </ul>
+        </div>
+        <center><h2>Photos of Van Build</h2></center>
+        <!--Photo Grid-->
+        <div class="row"> 
+            <div class="column">
+              <img src="/assets/1.JPEG" style="width:100%">
+              <img src="/assets/2.JPEG" style="width:100%">
+              <img src="/assets/3.JPEG" style="width:100%">
+              <img src="/assets/4.JPG" style="width:100%">
+              <img src="/assets/5.JPEG" style="width:100%">
+              <img src="/assets/6.JPEG" style="width:100%">
+              <img src="/assets/7.JPEG" style="width:100%">
+              <img src="/assets/14.JPEG" style="width:100%">
+              <img src="/assets/23.JPEG" style="width:100%">
+              <img src="/assets/32.JPEG" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="/assets/8.JPEG" style="width:100%">
+                <img src="/assets/9.JPEG" style="width:100%">
+                <img src="/assets/10.JPEG" style="width:100%">
+                <img src="/assets/11.JPEG" style="width:100%">
+                <img src="/assets/11.5.JPEG" style="width:100%">
+                <img src="/assets/12.JPEG" style="width:100%">
+                <img src="/assets/13.JPEG" style="width:100%">
+                <img src="/assets/15.JPEG" style="width:100%">
+                <img src="/assets/16.JPEG" style="width:100%">
+                <img src="/assets/37.JPEG" style="width:100%">
+              
+            </div>  
+            <div class="column">
+                <img src="/assets/17.JPEG" style="width:100%">
+                <img src="/assets/18.JPEG" style="width:100%">
+                <img src="/assets/19.JPEG" style="width:100%">
+                <img src="/assets/20.JPEG" style="width:100%">
+                <img src="/assets/21.JPEG" style="width:100%">
+                <img src="/assets/22.JPEG" style="width:100%">
+                <img src="/assets/24.JPEG" style="width:100%">
+                <img src="/assets/25.JPEG" style="width:100%">
+                <img src="/assets/26.JPEG" style="width:100%">
+                <img src="/assets/38.JPEG" style="width:100%">
+
+            </div>
+            <div class="column">
+                <img src="/assets/27.JPEG" style="width:100%">
+                <img src="/assets/28.JPEG" style="width:100%">
+                <img src="/assets/29.JPEG" style="width:100%">
+                <img src="/assets/30.JPEG" style="width:100%">
+                <img src="/assets/31.JPEG" style="width:100%">
+                <img src="/assets/33.JPEG" style="width:100%">
+                <img src="/assets/34.JPEG" style="width:100%">
+                <img src="/assets/35.JPEG" style="width:100%">
+                <img src="/assets/36.JPEG" style="width:100%">
+                <img src="/assets/39.JPEG" style="width:100%">
+
+            </div>
+          </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+                }
+                </script>
+        <footer>
+            <br>
+            <br>
+        </footer>
+   </body>	
+</html>

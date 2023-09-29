@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" type="image/png" href="icons/icon.png">
+
+      <title>bubs the van</title>
+   </head>	
+   <body>
+        <div id="heading"><center>
+             <h1>Welcome to Bubs the Van</h1>
+        </center>
+        </div>
+        <div id ="menu">
+            <ul>
+                <li><a href = "/index.html">home</a></li>
+                <li><a href = "/final.html">final photos</a></li>
+                <li><a href = "/roadtrip.html">trips</a></li>
+                <li><a href="/buildinformation.html">build information</a></li>
+            </ul>
+        </div>
+        <div id = "build_info">
+            <br>
+            <br>
+            
+            <h2>Build Information</h2>
+            <!-- insert a photo grid somehow-->
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+                }
+                </script>
+        <footer>
+            <br>
+            <br>
+        </footer>
+   </body>	
+</html>
